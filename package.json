@@ -1,14 +1,25 @@
 {
   "name": "test",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
+    "@zxing/library": "^0.18.3",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
+    "axios": "^0.21.0",
+    "jquery": "^3.5.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-webcam-barcode-scanner": "0.0.2-rc2",
+    "screenfull-react": "0.0.4",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -34,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-class-properties": "^7.12.1",
+    "@babel/preset-react": "^7.12.7"
   }
 }
